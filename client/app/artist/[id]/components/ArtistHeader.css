@@ -1,0 +1,13 @@
+.pri-btns,
+.monthly-listeners {
+  transition: all 250ms ease;
+  max-height: 1000px;
+}
+
+.artist-header.shrunk .pri-btns,
+.artist-header.shrunk .monthly-listeners {
+  max-height: 0px;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
